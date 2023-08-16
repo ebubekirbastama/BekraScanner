@@ -19,7 +19,7 @@ namespace BekraKıll
         Kıll_Process k = new Kıll_Process();
         private void Form1_Load(object sender, EventArgs e)
         {
-            string[] klasorler =Directory.CreateDirectory("D:ahmetcansever");
+            string[] klasorler =Directory.CreateDirectory("D:ebs");
             for (int j = 0; j < klasorler.Length; j++)
             {
                 MessageBox.Show(klasorler[j].ToString());
